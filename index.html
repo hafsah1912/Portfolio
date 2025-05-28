@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">My Expertise</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Hafsah Saiyed</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="Hafsah_CV.pdf" class="btn" download>Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/10/computer_engineer-compare-page.jpg"
+                alt="Computer Engineer" />
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/AboutMe.jpg" alt="About Me Image" />
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer</h3>
+            <p>Hi, I'm Hafsah, a passionate and versatile Full Stack Developer skilled in building modern, scalable, and
+                user-friendly applications. I specialize in the MERN stack (MongoDB, Express.js, React, Node.js) and
+                Python development, including frameworks like Django. I'm also proficient in HTML5 and CSS3, which form
+                the foundation of all the responsive and interactive UIs I create.</p>
+            <p>With a strong foundation in both frontend and backend technologies, I enjoy bringing ideas to life—from
+                designing clean and responsive user interfaces with HTML, CSS, and React, to building robust APIs and
+                deploying full-scale applications. My projects range from dynamic web platforms and RESTful services to
+                interactive dashboards and automation tools. I’m always excited to learn new technologies, contribute to
+                meaningful projects, and solve real-world problems through code.</p>
+            <h4>Technical Skills</h4>
+            <ul>
+                <li><strong>Programming Languages:</strong> JavaScript (ES6+), Python, Java, C#</li>
+                <li><strong>Frontend:</strong> React, HTML5, CSS3, Tailwind CSS, Bootstrap</li>
+                <li><strong>Backend:</strong> Node.js, Django, RESTful APIs</li>
+                <li><strong>Databases:</strong> MongoDB, PostgreSQL, MySQL</li>
+                <li><strong>Tools & Platforms:</strong> Git, GitHub, AWS</li>
+            </ul>
+            <p>I’m always eager to explore new technologies, contribute to innovative projects, and tackle real-world
+                challenges through code. Whether it’s optimizing performance, enhancing accessibility, or integrating
+                third-party APIs, I’m driven by a commitment to quality and continuous learning.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Expertise</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Design & Development</h3>
+                <p>I design and build responsive, user-friendly websites and full-stack web applications. Using HTML5,
+                    CSS3, JavaScript, React, and Tailwind CSS for the frontend, and Node.js, Express, and Django for the
+                    backend, I create seamless digital experiences with clean code and modern design principles. My work
+                    spans static pages, dynamic platforms, and complete end-to-end systems.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-python'></i>
+                <h3>Python Development</h3>
+                <p>I build efficient backend systems with Python, leveraging frameworks like Django and Flask. I also
+                    automate workflows using libraries like Pandas, NumPy, and BeautifulSoup, solving real-world
+                    problems with clean and maintainable code.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-brain'></i>
+                <h3>AI / Machine Learning</h3>
+                <p>I develop AI-powered applications using Python libraries such as TensorFlow, Keras, and Scikit-learn.
+                    My projects include sentiment analysis, recommendation systems, and computer vision, showcasing the
+                    practical impact of intelligent systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="myproject/image/jan-vlacuha-Rns_A8bJ_dQ-unsplash.jpg" alt="Personal Portfolio Project" />
+                <div class="portfolio-layer">
+                    <h4>Personal Portfolio</h4>
+                    <p>In this project, I created my own portfolio website to showcase my projects, social media
+                        handles, and experience.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/home.jpeg" alt="Trippify">
+                <div class="portfolio-layer">
+                    <h4>Trippify</h4>
+                    <p>Full-stack travel web app using Django, React & MongoDB. Includes user auth, dynamic homepage,
+                        booking & wishlist system. Hosted on AWS with responsive UI.</p>
+                    <a href="https://github.com/hafsah1912/Trippify_frontend"><i
+                            class='bx bxl-github'></i><span>github</span></a>
+                    <a href="https://trippify-frontend.vercel.app/"><i class='bx bx-link-external'></i><span>Live
+                            Demo</span></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/Travel.jpeg" alt="Tourism Management System">
+                <div class="portfolio-layer">
+                    <h4>Tourism Management System</h4>
+                    <p>Built with Tkinter and MySQL (XAMPP). Features user auth, filterable package listings, and a
+                        booking system.</p>
+                    <a href="https://github.com/hafsah1912/Tourism_Management_System-Using-Tkinter"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="myproject/image/kevin-canlas-QYHehJ9Iovs-unsplash.jpg"
+                    alt="Wedding Planner Website Project" />
+                <div class="portfolio-layer">
+                    <h4>Wedding Planner Website</h4>
+                    <p>A beautifully designed front-end website for wedding planning, built using HTML and CSS. Features
+                        elegant layouts and responsive design.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/Chatbot.jpeg" alt="Chat Bot Project">
+                <div class="portfolio-layer">
+                    <h4>Chat Bot Project</h4>
+                    <p>An intelligent chatbot built using NLP and machine learning technologies with an intuitive
+                        interface.</p>
+                    <a href="https://github.com/hafsah1912/PDFQA"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="certification">
+        <h2 class="heading">My <span>Certifications</span></h2>
+        <div id="myBtnContainer">
+            <button class="filter-item active" onclick="filterSelection('all')">All</button>
+            <button class="filter-item" onclick="filterSelection('java')">Java</button>
+            <button class="filter-item" onclick="filterSelection('web')">Web Development</button>
+            <button class="filter-item" onclick="filterSelection('ml')">Machine Learning</button>
+            <button class="filter-item" onclick="filterSelection('aws')">AWS</button>
+        </div>
+        <div class="portfolio-container">
+            <div class="card filterDiv java">
+                <div class="card-body">
+                    <img src="images/Certificate1.png" alt="JAVA" class="image" />
+                    <h5 class="card-title">Certified in Introduction of JAVA</h5>
+                    <span class="badge">JAVA</span>
+                    <!-- <span class="badge">Certification</span> -->
+                    <a href="https://coursera.org/share/4c0a06f3abc27483df89265353ace39b" class="link">View Certificate</a>
+                </div>
+            </div>
+            <div class="card filterDiv java">
+                <div class="card-body">
+                    <img src="images/Certificate2.png" alt="DS" class="image" />
+                    <h5 class="card-title">Certified in Inheritance and Data Structures in Java</h5>
+                    <span class="badge">Data Structures</span>
+                    <!-- <span class="badge">Certification</span> -->
+                    <a href="https://coursera.org/share/caea3c74f8a954694e51b7d1b5f91b0a" class="link">View Certificate</a>
+                </div>
+            </div>
+            <div class="card filterDiv web">
+                <div class="card-body">
+                    <img src="images/Certificate3.png" alt="Web Development" class="image" />
+                    <h5 class="card-title">Certified in HTML, CSS, and Javascript for Web Developers</h5>
+                    <span class="badge">Web Developer</span>
+                    <!-- <span class="badge">Certification</span> -->
+                    <a href="https://coursera.org/share/a5b615f969b5168db36fe6de4f7de4a0" class="link">View Certificate</a>
+                </div>
+            </div>
+            <div class="card filterDiv ml">
+                <div class="card-body">
+                    <img src="images/Certificate4.png" alt="ML" class="image" />
+                    <h5 class="card-title">Certified in Exploratory Data Analysis for Machine Learning</h5>
+                    <span class="badge">Machine Learning</span>
+                    <!-- <span class="badge">Certification</span> -->
+                    <a href="https://coursera.org/share/8b3a22a51b10796705e09712b95dfd85" class="link">View Certificate</a>
+                </div>
+            </div>
+            <div class="card filterDiv aws">
+                <div class="card-body">
+                    <img src="images/Certificate5.png" alt="AWS" class="image" />
+                    <h5 class="card-title">Certified in AWS Cloud Technical Essentials</h5>
+                    <span class="badge">AWS</span>
+                    <!-- <span class="badge">Certification</span> -->
+                    <a href="https://coursera.org/share/3000771410d4dc6ee6b1de96469d21b5" class="link">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Get in Touch</h2>
+        <div class="contact-details">
+            <div class="contact-item">
+                <i class='bx bx-map'></i>
+                <p>Juhapura, Ahmedabad</p>
+            </div>
+            <div class="contact-item">
+                <i class='bx bx-phone'></i>
+                <p>+91 9724826840</p>
+            </div>
+            <div class="contact-item">
+                <i class='bx bx-envelope'></i>
+                <p>hafsahsaiyed@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <i class='bx bxl-linkedin'></i>
+                <p>linkedin.com/in/hafsahsaiyed</p>
+            </div>
+        </div>
+        <div class="contact-form">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Mobile Number" required>
+                <input type="text" placeholder="Subject" required>
+            </div>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="c-btn">Submit</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Hafsah | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
